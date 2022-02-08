@@ -129,4 +129,8 @@ dmypy.json
 .pyre/
 
 # Dev/yatube_project/.gitignore
+<<<<<<< HEAD
 .vscode/
+=======
+.vscode/
+>>>>>>> 7eea4d17d20e164d3a1e9cef2d900d6256567c8d
