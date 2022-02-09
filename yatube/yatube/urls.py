@@ -21,7 +21,7 @@ urlpatterns = [
     # Главная страница
     path('', views.index),
     # посты по группам
-    path('group/', views.group_posts()),
+    path('group/', views.group_posts),
     # Сами посты
-    path('group/<str:any_slag>/', views.group_posts()),
+    path('group/<str:any_slag>/', views.post),
 ]
