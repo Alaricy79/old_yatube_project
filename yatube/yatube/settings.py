@@ -56,7 +56,7 @@ ROOT_URLCONF = 'yatube.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/Dev/yatube_project/yatube/templates/posts'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
