@@ -8,10 +8,9 @@ def index(request):
 
 
 
-
-
 def group_posts(request):
-    return HttpResponse('Группа')
+   template = 'group_list.html'
+   return render(request, template)
 
 
 # В урл мы ждем парметр, и нужно его прередать в функцию для использования
