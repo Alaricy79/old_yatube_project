@@ -19,9 +19,9 @@ Including another URLconf
 
 urlpatterns = [
     # Главная страница
-    path('', views.index),
+    path('', views.index, name='home'),
     # посты по группам
-    path('group/', views.group_posts),
+    path('group/', views.group_posts, name='posts'),
     # Сами посты
     path('group/<str:any_slag>/', views.post),
 ]

@@ -4,13 +4,14 @@ from django.template import loader
 
 def index(request):
    template = 'index.html'
-   return render(request, template)
-
+   context={'text':'Главная страница'}
+   return render(request, template, context)
 
 
 def group_posts(request):
    template = 'group_list.html'
-   return render(request, template)
+   context={'text':'Посты участников'}
+   return render(request, template, context)
 
 
 # В урл мы ждем парметр, и нужно его прередать в функцию для использования
